@@ -1,5 +1,5 @@
 import os
-import streamit as st
+import streamlit as st
 
 #import os
 import streamlit as st
