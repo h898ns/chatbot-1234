@@ -34,7 +34,7 @@ st.title("_Private Data :red[QA Chat]_ :books:")
 with st.sidebar:
     openai_api_key = st.text_input("OpenAI API key", key="chatbot_api_key",
 type="password:")
-    process = st.button("process)
+    process = st.button("process")
 if process
    if not openai_api_key:
     st.info("please add your OpenAI API key to continue.")
