@@ -15,7 +15,7 @@ import streamlit as st
 from langchain_OpenAI import ChatOpenAI
 
 chatgpt = ChatOpenAI()
-chatgpt = ChatOpenAI(model_name="gpt-3.5-turbo, max_tokens = 512)
+chatgpt = ChatOpenAI(model_name="gpt-3.5-turbo", max_tokens = 512)
 answer = chatgpt.invoke("방학에 가면 좋을 여행지를 알려줘")
 print(answer.content)
 
