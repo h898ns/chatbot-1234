@@ -1,7 +1,7 @@
 import os
 import streamlit as st
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 from langchain.llms import OpenAI
 llm = OpenAI()
