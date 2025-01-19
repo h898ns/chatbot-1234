@@ -1,5 +1,0 @@
-pysqlite3-binary
-langchain
-streamlit
-openai
-langchain_openai
